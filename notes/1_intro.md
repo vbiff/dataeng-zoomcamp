@@ -290,7 +290,7 @@ DROP TABLE yellow_taxi_data;
 We are now ready to test the script with the following command:
 
 ```bash
-python ingest_data.py \
+python3 ingest_data.py \
     --user=root \
     --password=root \
     --host=localhost \
